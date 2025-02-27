@@ -5,7 +5,6 @@ import { IoLogOutOutline } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { getInitials } from "../utils";
-import { logoutUser } from "../../../Backend/controllers/userController";
 import { toast } from "sonner";
 import { logout } from "../redux/slices/authSlice";
 
